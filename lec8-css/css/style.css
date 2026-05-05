@@ -1,0 +1,79 @@
+* {
+  /* border: 1px solid #f00; */
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  color: #fff;
+}
+
+.box2 {
+  padding: 10px;
+}
+
+.box1 {
+  /* background-color: orange; */
+  /* background-color: rgb(150, 0, 255); */
+  /* background-color: rgba(150, 0, 255, 0.8); */
+  /* background-color: #875; */
+  /* margin: 10px; */
+  /* margin: 10px 20px; */
+  /* margin: 10px 20px 30px; */
+  /* margin: 10px 20px 30px 40px; */
+  margin-bottom: 10px;
+  margin: 50px;
+  border: 1px solid #0cf;
+  border-radius: 5px;
+  /* border-top: 5px solid #f80; */
+  /* border: 5px dashed #0cf; */
+  /* border: 5px dotted #0cf; */
+}
+
+.box2 {
+  background-color: #f80;
+}
+
+.box3 {
+  background-color: #0cf;
+}
+
+a {
+  text-decoration: none;
+}
+
+.zina {
+  width: 150px;
+  border-radius: 50%;
+  height: 150px;
+  object-fit: cover;
+  border: 2px dashed #e50;
+  padding: 5px;
+  box-sizing: border-box;
+  /* background-color: #f00; */
+}
+
+.btn {
+  background-color: #e50;
+  color: #fff;
+  padding: 8px 15px;
+  border-radius: 5px;
+  margin: 0 10px;
+  border: 1px solid #e50;
+  transition: all .3s ease;
+}
+
+.btn:hover {
+  color: #e50;
+  background-color: transparent;
+}
