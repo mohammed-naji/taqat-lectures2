@@ -1,0 +1,26 @@
+body {
+  background-color: #effaff;
+}
+
+img {
+  max-width: 100%;
+}
+
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.wrapper .user {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px dashed #88d9ff;
+  padding: 5px;
+  background-color: #fff;
+}
+
+.info {
+  text-align: center;
+}
