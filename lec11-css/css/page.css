@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #333;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav .logo img {
+  width: 70px;
+  filter: brightness(0) invert(1);
+}
+
+header .menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+header .menu ul a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.ahmed {
+  background-image: url(../images/2021-12-30-11-06-02_bakkah-consulting-min.png);
+  /* height: calc(100vh - 74px); */
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ahmed h1 {
+  margin: 0;
+  font-size: 50px;
+  color: #fff;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 1);
+  /* background: #2A7B9B;
+  background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent; */
+}
+
+
+.gallery {
+  padding: 60px 0;
+}
+
+.gallery-wrapper {
+  display: grid;
+  gap: 10px;
+  grid-template-areas:
+    "div1 div1 div2 div3"
+    "div1 div1 div4 div5";
+}
+
+.gallery-wrapper div:nth-child(1) {
+  grid-area: div1;
+}
+
+.gallery-wrapper div:nth-child(2) {
+  grid-area: div2;
+}
+
+.gallery-wrapper div:nth-child(3) {
+  grid-area: div3;
+}
+
+.gallery-wrapper div:nth-child(4) {
+  grid-area: div4;
+}
+
+.gallery-wrapper div:nth-child(5) {
+  grid-area: div5;
+}
+
+.gallery-wrapper div {
+  border: 1px solid #dd7;
+  min-height: 100px;
+  background-color: rgb(0, 138, 120);
+  font-size: 40px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about {
+  padding: 60px 0;
+  text-align: center;
+}
+
+.about .images-wrapper {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 5px;
+}
+
+.about .images-wrapper img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
