@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #eee;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+header a {
+  color: #333;
+}
+
+header .logo a {
+  font-weight: 700;
+}
+
+header .menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.hero {
+  padding: 100px 0;
+  text-align: center;
+  background: #2A7B9B;
+  background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+  color: #fff;
+  text-shadow: 0 0 5px rgba(0, 0, 0, .2);
+}
+
+.about {
+  text-align: center;
+  padding: 60px 0;
+}
+
+.boxes-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.contact {
+  padding: 60px 0;
+}
+
+.contact input,
+.contact textarea,
+.contact button {
+  display: block;
+  margin-bottom: 10px;
+  width: 100%;
+  border: 1px solid #d5d5d5;
+  border-radius: 3px;
+  padding: 10px;
+}
+
+.contact button {
+  background-color: #2A7B9B;
+  color: #fff;
+  cursor: pointer;
+}
+
+.contact button:hover {
+  background-color: #2fa3d1;
+}
+
+footer {
+  text-align: center;
+  background-color: #eee;
+  padding: 20px 0;
+}
