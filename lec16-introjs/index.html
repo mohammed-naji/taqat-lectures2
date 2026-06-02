@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <button id="hide">Hide Text</button>
+  <button id="show">Show Text</button>
+  <button id="both">Show/Hide Text</button>
+  <p id="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita possimus ab
+    temporibus, nobis magnam
+    quibusdam,
+    dolorum libero voluptatibus laboriosam officia sunt veritatis! Saepe officiis, debitis labore quas odit harum at.
+  </p>
+
+  <script>
+    // selector.event = action 
+    document.getElementById('hide').onclick = function () {
+      document.getElementById('text').style.display = 'none'
+    }
+    document.getElementById('show').onclick = function () {
+      document.getElementById('text').style.display = 'block'
+    }
+    document.getElementById('both').onclick = function () {
+      // if(condition) {
+      //   true
+      // }else {
+      //   false
+      // }
+
+      if (document.getElementById('text').style.display === 'none') {
+        document.getElementById('text').style.display = 'block'
+      } else {
+        document.getElementById('text').style.display = 'none'
+      }
+    }
+  </script>
+</body>
+
+</html>
